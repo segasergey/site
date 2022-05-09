@@ -1,0 +1,679 @@
+*,  
+*::before,
+*::after {
+    margin: 0%;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: 0;
+}
+
+a, 
+a :visited {
+    text-decoration: none;
+}
+
+a.hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit; 
+}
+
+img {
+    vertical-align: top;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Radio+Canada:300,regular,500,600,700&display=swap);
+
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-Bold.woff2') format('woff2'),
+        url('GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-MediumItalic.woff2') format('woff2'),
+        url('GothamPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-LightItalic.woff2') format('woff2'),
+        url('GothamPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    text-align: left;
+    background-color: grey;
+ 
+}
+
+header {
+    margin-left: 200px;
+    
+}
+
+main {
+    font-family: 'radio-canada';
+    margin: 200px;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Water Brush';
+    color: rgb(220, 220, 220);
+    text-decoration-color: aliceblue;
+    text-decoration: dashed;
+    text-decoration: underline;
+
+}
+
+h1.begins {
+    text-transform: initial;
+    text-transform: uppercase;
+    text-decoration: overline;
+    color: #2450d2;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Water Brush';
+    color: rgb(202, 219, 250);
+}
+
+li {
+    text-decoration:overline;
+    transform-style: flat;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Water Brush';
+    letter-spacing: 5px;
+    word-spacing: 30px;
+    padding: 0;
+    margin: 5px;
+    font: 1em sans-serif;
+    text-align: center;
+}
+
+p {
+    color:  rgba(0, 0, 0, 0.9);
+    font-family: 'Gotham Pro';
+    font-weight: bold;
+    font-style: normal;
+}
+
+h2.chapter {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    border-bottom: 0;
+
+}
+
+p.phrase {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-Bold.woff2') format('woff2'),
+        url('GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: rgb(176, 121, 31);
+    text-align: right;
+    font-weight: 900;
+    font-style: italic;
+    text-emphasis-style: '`';
+}
+
+p.author {
+    text-decoration: underline;
+    font-weight: 900;
+    font-family: serif;
+    color: rgb(175, 122, 23);
+    text-decoration-color: rgb(255, 0, 81);
+    text-align: right;
+}
+
+
+
+/* ТУт что то с картинкой  */
+
+.box {
+    width: 1000px;
+    margin: 50px auto 0;
+    text-align: center;
+  }
+  .image-box {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 5px;
+    background: #c9991e;
+    
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .details {
+    background: #c9991e;
+    margin-top: -70px;
+    padding: 70px 30px 30px;
+    border-radius: 5px;
+  }
+  .details h3 {
+    font-family: 'radio-canada', serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 24px;
+    color: #281F19;
+  }
+  .details p {
+    font-family: 'Water Brush', serif;
+    color: #4C3D35;
+    line-height: 24px;
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-Bold.woff2') format('woff2'),
+        url('GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: rgb(255, 250, 216);
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  /* Этот блок закончен, выглядит красиво */
+
+.p1 {
+    font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 2rem;  
+    font-family: 'Times New Roman', Times, serif;
+    text-overflow: ellipsis;
+    text-indent: 100px;
+    margin-top: 15px;
+    padding: 20px;
+    color: blueviolet;
+
+}
+
+.p2 {
+    font-style: sans-serif;
+    font-size: 3rem;
+    text-decoration: line-through;
+    text-decoration-color: #ff5500;
+    color: rgba(128, 255, 0, 0.7);
+}
+
+.p3 {
+    font-style: inherit;
+    font-size: 3em;
+    color: turquoise;
+    word-spacing: 10px;
+}
+
+.p4 {
+    font-style: inherit;
+    font-size: 7px;
+    color: #ff5500;
+}
+
+.p5 {
+    font-style: oblique;
+    color: darkorange;
+    font-weight: 100;
+}
+
+.p6 {
+    font-style: italic;
+    font-weight: 200;
+    color: yellow;
+}
+
+.p7 {
+    font-weight: 300;
+    color: rgb(5, 225, 31);
+}
+
+.p8 {
+    font-weight: 400;
+    color: rgb(255, 149, 0);
+}
+
+.p9 {
+    font-weight: 500;
+    color: rgb(242, 255, 0);
+}
+
+.p10 {
+    font-weight: 600;
+    color: rgb(111, 255, 0);
+}
+
+.p11 {
+    font-weight: 700;
+    color: rgb(0, 195, 255);
+}
+
+.p12 {
+    font-weight: 800;
+    color: rgb(13, 0, 255);
+}
+
+.p13 {
+    font-weight: 900;
+    color: rgb(204, 0, 255);
+}
+
+.p14 {
+    color: yellowgreen;
+}
+
+.p15 {
+    color: rgb(90, 63, 177);
+    text-align: left;
+}
+.p16 {
+    text-align: right;
+    color: rgb(90, 199, 121);
+    text-decoration: none;
+}
+
+.p17 {
+    text-align: center;
+    color: rgb(255, 120, 9);
+}
+
+.p18 {
+    text-decoration: line-through;
+    font-weight: 700;
+}
+
+.p19 {
+    text-decoration: overline;
+    font-weight: 100;
+}
+
+.p20 {
+    text-decoration:  underline;
+    text-decoration-color: rgb(255, 0, 81);
+    font-weight: 300;
+}
+
+.p21 {
+    text-shadow: 3px 3px 3px rgb(203, 95, 95);
+    text-decoration: wavy ;
+}
+
+.p22 {
+    text-decoration: overline;
+    font-weight: 900;
+    color: red ;
+}
+
+.p23 {
+    text-transform: capitalize;
+    color: orange;
+}
+
+.p24 {
+    text-transform: lowercase;
+    color: yellow;
+}
+
+.p25 {
+    text-transform: uppercase;
+    color: green;
+}
+
+.p26 {
+    text-transform: none;
+    margin: 20px; 
+    color: lightskyblue;
+}
+
+.p27 {
+    line-height: 200%;
+    color: blue;
+}
+
+.p28 {
+   letter-spacing: 10px;
+   color: purple;
+}
+
+.p29 {
+    word-spacing: 10px;
+    color: red;
+ }
+
+ .p30 {
+    text-indent: 50px;
+    color: orange;
+ }
+
+ .p31 {
+    letter-spacing: 10px;
+    color: yellow;
+ }
+
+.p32 {
+    white-space: normal;
+    color: green;
+}
+
+.p33 {
+    white-space: inherit;
+    color: lightskyblue;
+}
+
+.p34 {
+    white-space: pre;
+    color: rgb(0, 8, 255);
+}
+
+
+.p35 {
+    white-space: nowrap;
+    color: rgb(98, 2, 119);
+}
+
+.p36 {
+    font-family: serif;
+    font-weight: 400;
+    font-size: larger;
+    font-style: oblique;
+    word-spacing: 100px;
+    letter-spacing: 1px;
+}
+
+.p37 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p38 {
+    text-decoration: underline;
+}
+
+.p39 {
+    text-decoration: overline;
+}
+
+.p40 {
+    text-combine-upright: 1px 1px 1px;
+}
+
+.p41 {
+    font-weight: 100;
+    color: rgb(221, 243, 223);
+}
+
+.p42 {
+    font-weight: 200;
+    color: rgb(160, 238, 178);
+}
+
+.p43 {
+    font-weight: 300;
+    color: rgb(117, 241, 152);
+}
+
+.p44 {
+    font-weight: 400;
+    color: rgb(153, 245, 140);
+}
+
+.p45 {
+    font-weight: 500;
+    color: rgb(31, 180, 56);
+}
+
+.p46 {
+    font-weight: 600;
+    color: rgb(25, 155, 55);
+}
+
+.p47 {
+    font-weight: 700;
+    color: rgb(10, 94, 10);
+}
+
+.p48 {
+    font-weight: 800;
+    color: rgb(7, 68, 7);
+}
+
+.p49 {
+    font-weight: 900;
+    color: rgb(13, 39, 13);
+    
+}
+
+.p50 {
+    font-style: italic;
+    color: #2450d2;
+}
+
+.p51 {
+    font-family: 
+    'radio-canada';
+    text-decoration-style: solid;
+    touch-action: cross-slide-y;
+    font-style: italic;
+}
+
+.p52 {
+    flood-color: aliceblue;
+    white-space: nowrap;
+    border-spacing: 10px;
+}
+
+.p53 {
+    color: aquamarine;
+    font-size: small;
+    font-weight: 900;
+}
+
+.p54 {
+    color: #2450d2;
+    font-style: oblique;
+    text-align: center;
+}
+
+.p55 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    color: #ff5500;
+    float: left;
+}
+
+.p56 {
+    color: azure;
+    flex-flow: row;
+    align-self: center;
+}
+
+.p57 {
+    text-decoration: overline;
+    color: gold;
+}
+
+.p58 {
+    color: gold;
+    text-decoration: dashed;
+}
+
+.p59 {
+    color: rgb(135, 119, 28);
+    text-transform: lowercase;
+}
+
+.p60 {
+    color: rgb(255, 223, 42);
+    text-transform: capitalize;
+}
+
+.p61 {
+    color: rgb(225, 194, 22);
+    text-transform: uppercase;
+}
+
+.p62 {
+    color: rgb(67, 61, 31);
+    text-overflow: clip;
+}
+
+.p63 {
+    color: rgb(194, 170, 35);
+    text-decoration: solid;
+}
+
+.p64 {
+    color: rgb(108, 92, 1);
+    text-decoration: line-through;
+    text-decoration-color: #2450d2;
+}
+
+.p65 {
+    color: rgb(73, 70, 53);
+    text-decoration: solid;
+    font-family: serif;
+    text-decoration-color: aliceblue;
+}
+
+.p66 {
+    color: rgb(231, 220, 157);
+    text-decoration: double;
+    text-decoration-color: aqua;
+}
+
+.p67 {
+    color: rgb(190, 162, 0);
+    height: auto;
+    text-combine-upright: 1px;
+}
+
+.p68 {
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    text-decoration: line-through;
+    text-decoration-color: blueviolet;
+}
+
+.p69 {
+    font-family: 'Water Brush';
+    text-decoration: line-through;
+    text-decoration-line: overline;
+    text-decoration-color: blanchedalmond;
+}
+
+.p70 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.p71 {
+    color: #ffd56a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.p72 {
+    text-decoration: dashed;
+    text-transform: uppercase;
+    color: #2450d2;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+}
+
+.p73 {
+    color: rgb(255, 221, 0);
+    text-decoration: overline;
+    text-decoration-color: wheat;
+}
+
+.p74 {
+    color: blue;
+    columns: 2;
+    
+}
+
+.p75 {
+    color: #ffffff;
+    columns: unset;
+}
+
+.p76 {
+    color: #2450d2;
+    columns: 3;
+    text-decoration: overline;
+    text-align: justify;
+}
+
+.p77 {
+    color: red;
+    columns: 3;
+}
+
+.p78 {
+    text-decoration: underline;
+    text-decoration-color: #ffd56a;
+    color: #ffffff;
+    text-transform: initial;
+}
+
+.p79 {
+    color: turquoise;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.p80 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p81 {
+    font-family: 'Gotham Pro';
+    color: #ffd56a;
+}
+
+.p82 {
+    font-weight: 900;
+    color: tomato;
+}
+
+.p83 {
+    text-decoration: overline;
+    text-decoration-color: bisque;
+    font-size: 70px;
+}
+
+.p84 {
+    text-transform: lowercase;
+
+}
